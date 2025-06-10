@@ -7,9 +7,11 @@ const HomePage = () => {
   const [showForm, setShowForm] = useState(false);
 
   return (
+    <div id="pqr">
+      <Header/>
     <div className="home-scroll-container">
       
-
+    
       <div className="banner-container">
         <h1 className="home-title">Welcome to Vivekanand College!</h1>
         <p>Your journey to excellence starts here.</p>
@@ -42,6 +44,9 @@ const HomePage = () => {
         {/* Future: Admission Form Component */}
         {/* {showForm && <AdmissionForm />} */}
       </div>
+      
+    </div>
+    <Footer/>
     </div>
   );
 };

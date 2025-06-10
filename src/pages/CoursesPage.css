@@ -127,3 +127,9 @@ textarea {
   resize: none; /* Prevents resizing */
   margin: 0 auto;
 }
+#demo{
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}

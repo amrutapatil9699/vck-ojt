@@ -15,7 +15,7 @@
   font-family: Arial, sans-serif;
   color: #333;
 
-  max-width: 1200px;
+  
   margin: 0 auto;
  
 }
@@ -159,4 +159,10 @@ li {
 }
 .button-wrapper {
   text-align: center;
+}
+#pqr{
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }

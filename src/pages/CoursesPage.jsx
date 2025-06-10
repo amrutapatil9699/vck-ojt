@@ -4,7 +4,8 @@ import Footer from "../components/Footer/Footers";
 import './CoursesPage.css'
 const CoursesPage = () => { 
     return(
-  
+  <div id="demo">
+    <Header/>
   <div style={{ padding: '1rem' }} className="home-scroll-container">
    
     <h1 className='h1'>Our Academic Programs</h1>
@@ -95,6 +96,8 @@ const CoursesPage = () => {
 
     <a href='/contact'  class="cta-button">Enquire About Courses</a>
     
+  </div>
+  <Footer/>
   </div>
 
 

@@ -12,16 +12,10 @@ import CoursesPage from './pages/CoursesPage';
 
 import NotFoundPage from './pages/NotFoundPage';
 
-// Header
-import Header from './components/Header/Headers';
-//Footer
-import Footer from "./components/Footer/Footers";
-
-
 function App() {
   return (
     <Router>
-      <Header />
+     
       
       <main style={{ padding: '1rem' }}>
         <Routes>
@@ -33,7 +27,7 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
-      <Footer/>
+   
     </Router>
   );
 }

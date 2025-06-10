@@ -4,7 +4,9 @@ import Footer from "../components/Footer/Footers";
 import './ContactPage.css'
 const ContactPage = () => { 
     return(
+      <div class="demo">
 
+      <Header/>
   <div style={{ padding: '1rem' }} className="home-scroll-container">
      
     <h1 className='h1'>Contact Us</h1>
@@ -46,6 +48,8 @@ const ContactPage = () => {
 
   
 
+  </div>
+  <Footer/>
   </div>
 )
 }
