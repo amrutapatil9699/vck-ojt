@@ -6,8 +6,11 @@
   font-size: 13px;
   width: 100%;
   position: relative; /* Or fixed if you want it always at bottom */
-  bottom: 0;
+  bottom: -20px;
   box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  min-width: 1220px;
+  max-width: 3500px;
+  left: 0;
   }
   .footer {
   background-color: #141924;

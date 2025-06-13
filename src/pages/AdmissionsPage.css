@@ -1,10 +1,11 @@
 .admissions-container {
   max-width: 1000px;
   margin: 2rem auto;
-  padding: 1rem;
+  padding: 15px;
   font-family: Arial, sans-serif;
   color: #333;
-  background-color: #f9f0f0;
+  background-color:white;
+  align-items: center;
 }
 
 .main-heading {
@@ -53,3 +54,10 @@ h2 {
   width: 80%;
   margin: 0 auto;
 }
+#note-tr1{
+  background-color: #f8f9fa;
+}
+#note-tr2{
+  background-color: #f2f2f2;
+}
+

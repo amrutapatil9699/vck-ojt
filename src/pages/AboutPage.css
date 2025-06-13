@@ -19,7 +19,7 @@
 
 .small-text {
   font-size: 0.95rem;
-  font-style: italic;
+  font-style: arial;
   color: #666;
 }
 
@@ -54,4 +54,17 @@ li {
   text-align: center;
   width: 80%;
   margin: 0 auto;
+}
+#or{
+  text-align: left;
+}
+span{
+  text-align: left;
+  display: block;
+}
+.h1{
+  color: #007bff;
+}
+.abc{
+  text-align: left;
 }

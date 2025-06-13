@@ -24,6 +24,7 @@ const Headers = () => {
           <Link to="/courses" className="nav-link">Courses</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
           <Link to="/apply" className="apply-btn">Apply Now!</Link>
+          <Link to="/admissions" className="nav-item btn"></Link>
         </nav>
         
         <button className="hamburger" onClick={toggleMenu}>

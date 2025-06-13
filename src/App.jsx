@@ -11,6 +11,7 @@ import ContactPage from './pages/ContactPage';
 import CoursesPage from './pages/CoursesPage';
 
 import NotFoundPage from './pages/NotFoundPage';
+import ChatbotComponent from './components/Chatbot/ChatbotComponents';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
-   
+    <ChatbotComponent/>
     </Router>
   );
 }

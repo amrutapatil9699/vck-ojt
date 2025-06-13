@@ -1,10 +1,13 @@
 import React from 'react';
 import './AdmissionsPage.css';
 import { Link } from 'react-router-dom';
+import Headers from '../components/Header/Headers';
+import Footer from '../components/Footer/Footers';
 
 const Admissions = () => {
   return (
     <div id="xyz">
+      <Headers/>
     <div className="admissions-container">
       <h1 className="main-heading">Admissions at Vivekanand College</h1>
       <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p>
@@ -21,19 +24,19 @@ const Admissions = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr id="note-tr1">
             <td>B.Sc. Computer Science</td>
             <td>10+2 (or equivalent)</td>
             <td>Physics, Chemistry, Maths</td>
             <td>50%</td>
           </tr>
-          <tr>
+          <tr id="note-tr2">
             <td>B.Com. Accounting & Finance</td>
             <td>10+2 (or equivalent)</td>
             <td>Commerce Stream</td>
             <td>45%</td>
           </tr>
-          <tr>
+          <tr id="note-tr1">
             <td>B.A. English Literature</td>
             <td>10+2 (or equivalent)</td>
             <td>Any Stream</td>
@@ -55,6 +58,7 @@ const Admissions = () => {
         For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/courses">Courses page</Link> or <Link to="/contact">Contact us</Link> directly.
       </p>
     </div>
+    <Footer/>
     </div>
   );
 };
