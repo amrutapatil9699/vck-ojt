@@ -34,6 +34,7 @@ nav a {
   padding: 20px;
   border-radius: 8px;
   text-align: center; /* Centers text inside */
+  overflow-y: hidden;
 
 }
 
@@ -105,8 +106,7 @@ nav a {
 
 .container {
   max-width: 800px;
-  background: #ecf4f5
-;
+  background: #ecf4f5;
   margin: 20px auto;
   padding: 20px;
   border-radius: 8px;

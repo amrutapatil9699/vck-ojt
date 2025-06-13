@@ -1,13 +1,14 @@
- .header {
+.header {
   background-color: #007bff;
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
-  z-index: 99;
-  width: 100%;
+  min-width: 1220px;
+  z-index: 999;
   top: -20px;
   left: 0;
   text-align: left;
+  width: calc(100% -20px);
 } 
 
 
@@ -132,4 +133,3 @@
     padding: 1rem;
   }
 }
-

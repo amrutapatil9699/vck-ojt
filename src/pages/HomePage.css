@@ -1,6 +1,6 @@
 .home-scroll-container {
           
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: visible;
   padding: 2rem;
   width: 941.6px;
@@ -171,6 +171,7 @@ li {
   text-align: center;
   width: 80%;
   margin: 0 auto;
+  align-items: centers;
 }
 span{
   display: block;
